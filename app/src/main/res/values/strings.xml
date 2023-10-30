@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pizza Restaurant</string>
+    <string name="store_label">Store</string>
+    <string name="name_label">Your Name</string>
+    <string name="name_input">Please fill your name</string>
+    <string name="submit_text">Submit</string>
+    <string name="see_menu_text">See Menus</string>
+    <string name="pizza_short_desc">Cocok bagi Anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat</string>
+    <string name="spaghetti_short_desc">Cocok bagi Anda yang ingin merasakan spaghetti original dengan bumbu oriental</string>
+    <string name="burger_short_desc">Cocok bagi Anda yang ingin merasakan kelembutan burgeur originalberlapisan keju, sayuran, dan daging yang tebal</string>
+    <string name="steak_short_desc">Cocok bagi Anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat</string>
+    <string name="pizza_title">Pepperoni Pizza</string>
+    <string name="spaghetti_title">Spaghetti</string>
+    <string name="burger_title">Burger</string>
+    <string name="steak_title">Steak</string>
+    <string name="pizza_long_desc">Pepperoni pizza adalah pizza yang memiliki topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupub malam Anda</string>
+    <string name="burger_long_desc">Beef Burger terbuat dari bun yang empuk serta beef yang digoreng dengan sempurna. Sayuran pelegkap pun segar dan baik serta tambahan saus khas. Cocok untuk sarapan, makan siang ataupun malam anda.</string>
+    <string name="spaghetti_long_desc">Spaghetti dengan pasta olahan ala Italia dan saus dengan bahan asli Italia. Tingkat kepedasannya sangat aman dikonsumsi serta tambahan keju yang sangat menambah kenikmatan. Cocok untuk menu makan siang dan malam anda.</string>
+    <string name="steak_long_desc">Steak yang diasap dengan sempurna disertai taburan saus khas. Kentang dan sayuran lain yang segar juga hadir untuk menambah rasa. Cocok untuk santapan malam anda.</string>
+    <string-array name="stores_array">
+        <item>Dipatiukur</item>
+        <item>Chicago</item>
+        <item>Ohio</item>
+        <item>Ankara</item>
+        <item>Milan</item>
+    </string-array>
+</resources>

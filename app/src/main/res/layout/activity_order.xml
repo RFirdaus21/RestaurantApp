@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="36dp"
+    android:layout_marginRight="36dp"
+    android:orientation="vertical"
+    tools:context=".OrderActivity">
+
+    <TextView
+        android:id="@+id/order_detail"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:text="Order Detail"
+        android:textColor="@color/red"/>
+
+    <TextView
+        android:id="@+id/customer_name"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/menu_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/delivery"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:text="Pengiriman"
+        android:textColor="@color/red"/>
+
+    <CheckBox android:id="@+id/checkbox_pickup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambil Sendiri" />
+
+    <CheckBox android:id="@+id/checkbox_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fast Delivery (minimal 30 menit sampai)"/>
+
+    <Button
+        android:id="@+id/button_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/spaghetti_detail_desc"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@drawable/sharp_corner"
+        />
+
+    <TextView
+        android:id="@+id/order_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:padding="15dp"
+        android:justificationMode="inter_word"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
